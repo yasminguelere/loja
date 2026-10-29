@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de imagens</title>
+    <style>
+        body {
+
+            padding: 24px;
+            font-family: "Segoe UI", Impact, sans-serif
+        }
+
+        .grade {
+            display: grid;
+            grid-template-columns: repeat(3, 180px);
+            gap: 16px;
+        }
+        .grade div {
+            display: grid;
+            justify-items: center;
+            gap: 8px;
+            padding: 12px;
+            border: 1px solid #c8cfdc;
+            border-radius: 10px
+        }
+
+        .grade img{
+            width: 110px;
+            height: 110px;
+            object-fit: contain;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Teste de imagens</h1>
+    <p>As três vem de imagens/assets</p>
+
+    <div class="grade">
+        <div>
+            <img src="assets/imagens/busts_in_silhouette_3d.png" alt="">
+            <b>Local (pasta)</b>
+        </div>
+        <div>
+            <img src="assets/imagens/package_3d.png" alt="">
+            <b>Local (pasta)</b>
+        </div>
+        <div>
+            <img src="assets/imagens/receipt_3d.png" alt="">
+            <b>Local (pasta)</b>
+        </div>
+        <div>
+            <img src="assets/imagens/shopping_bags_3d.png" alt="">
+            <b>Local (pasta)</b>
+        </div>
+    </div>
+    
+</body>
+</html>
